@@ -4,11 +4,11 @@ groups:
 
 connection_throttle: -1  # Prevents connection issues
 connection_throttle_limit: 3
-online_mode: false  # Required for Eaglercraft compatibility
+online_mode: false       # Required for Eaglercraft compatibility
 remote_ping_timeout: 5000
 remote_ping_cache: -1
 timeout: 30000
-ip_forward: true  # Ensures correct player IPs and UUIDs
+ip_forward: true        # Ensures correct player IPs and UUIDs
 forge_support: false
 player_limit: -1
 max_packets_per_second: 4096
@@ -18,11 +18,13 @@ log_commands: false
 reject_transfers: false
 prevent_proxy_connections: true  # Security: Prevents unauthorized proxy usage
 server_connect_timeout: 5000
-enforce_secure_profile: false  # Allows offline-mode players
+enforce_secure_profile: false    # Allows offline-mode players
 
 servers:
   lobby:
-    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565  # Updated to Koyeb Spigot server URL
+    # Update the address to the public endpoint of your Spigot server.
+    # Ensure that this address (responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app) is accessible on port 25565
+    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565
     motd: '&1Welcome to the Eaglercraft Network'
     restricted: false
 
@@ -31,8 +33,9 @@ listeners:
     force_default_server: true
     forced_hosts:
       pvp.md-5.net: pvp
-    host: 0.0.0.0:25565  # BungeeCord listens for connections here
-    max_players: 100  # Adjust based on your server capacity
+    # BungeeCord listens for incoming client connections on this address/port.
+    host: 0.0.0.0:25565
+    max_players: 100
     motd: '&1Eaglercraft Bungee Server'
     ping_passthrough: false
     priorities:
