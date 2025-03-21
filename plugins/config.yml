@@ -1,5 +1,5 @@
 websocket_address: 0.0.0.0:8081  # WebSockets listen here
-websocket_path: /
+websocket_path: /2
 websocket_ssl: false  # Set to true if using SSL (requires certs)
 allow_voice: false
 allow_offline_mode: true
