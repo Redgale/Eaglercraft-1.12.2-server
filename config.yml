@@ -22,9 +22,12 @@ enforce_secure_profile: false  # Allows offline-mode players
 
 servers:
   lobby:
-    # Update this to your Koyeb public Spigot server URL, removing port and path as required
     address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app/
     motd: '&1Welcome to the Eaglercraft Network'
+    restricted: false
+  fallback:
+    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565  # Your fallback Spigot server address
+    motd: '&1Fallback Server'
     restricted: false
 
 listeners:
@@ -38,6 +41,7 @@ listeners:
     ping_passthrough: false
     priorities:
       - lobby
+      - fallback  # Add fallback to priorities
     proxy_protocol: false
     query_enabled: false
     query_port: 25577
