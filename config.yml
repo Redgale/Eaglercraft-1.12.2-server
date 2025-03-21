@@ -22,7 +22,7 @@ enforce_secure_profile: false  # Allows offline-mode players
 
 servers:
   lobby:
-    address: localhost:25565  # Make sure backend server is running on this port
+    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565  # Updated to Koyeb Spigot server URL
     motd: '&1Welcome to the Eaglercraft Network'
     restricted: false
 
