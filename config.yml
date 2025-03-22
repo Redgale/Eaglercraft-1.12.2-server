@@ -22,11 +22,11 @@ enforce_secure_profile: false       # Allows offline-mode players
 
 servers:
   lobby:
-    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565
+    address: eagler1122server.falixsrv.me:20660
     motd: '&1Welcome to the Eaglercraft Network'
     restricted: false
-  fallback:
-    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565
+  fallback:                   # (If you have a fallback defined)
+    address: eagler1122server.falixsrv.me:20660
     motd: '&1Fallback Server'
     restricted: false
 
