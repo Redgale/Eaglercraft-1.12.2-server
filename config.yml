@@ -22,12 +22,8 @@ enforce_secure_profile: false  # Allows offline-mode players
 
 servers:
   lobby:
-    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app/1
+    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565
     motd: '&1Welcome to the Eaglercraft Network'
-    restricted: false
-  fallback:
-    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25566  # Your fallback Spigot server address
-    motd: '&1Fallback Server'
     restricted: false
 
 listeners:
