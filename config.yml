@@ -26,7 +26,7 @@ servers:
     motd: '&1Welcome to the Eaglercraft Network'
     restricted: false
   fallback:
-    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25565  # Your fallback Spigot server address
+    address: responsible-lonna-sigmasfromohio-bfb48e6e.koyeb.app:25566  # Your fallback Spigot server address
     motd: '&1Fallback Server'
     restricted: false
 
